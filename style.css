@@ -1,0 +1,47 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header h1:hover {
+    text-shadow: 2px 2px #c6c6c6;
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+
+.navColor {
+    background-image: linear-gradient(to right, #ff0077, #ffc6e1);
+}
+
+.navbar {
+    box-shadow: none !important;
+}
+
+.page-header:before {
+    background-color: transparent !important;
+}
+
+.page-header {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.page-header-image {
+    background-image: url(./imgs/undraw_web_developer_p3e5.svg);
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-color: transparent !important;
+}
+
+.left {
+    margin-left: auto;
+}
