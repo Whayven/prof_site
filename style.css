@@ -3,7 +3,8 @@ html {
     margin: 0;
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    scroll-behavior: smooth;
 }
 
 .header h1:hover {
@@ -14,7 +15,7 @@ html {
     width: 100%;
 }
 
-.nav a:hover{
+.nav a:hover {
     text-decoration: underline;
 }
 
@@ -24,16 +25,31 @@ html {
 
 .navbar {
     box-shadow: none !important;
+    /* transition: top 0.5s; */
+}
+
+.hidden {
+    transform: translateY(-100%);
+    transition: 0.5s;
+}
+
+.nav-container:hover .navbar {
+    transform: translateY(0);
+    transition: .5s;
+}
+
+.left {
+    margin-left: auto;
 }
 
 .page-header:before {
     background-color: transparent !important;
 }
 
-.page-header {
+/* .page-header {
     background-repeat: no-repeat;
     background-size: contain;
-}
+} */
 
 .page-header-image {
     background-image: url(./imgs/undraw_web_developer_p3e5.svg);
@@ -42,6 +58,13 @@ html {
     background-color: transparent !important;
 }
 
-.left {
-    margin-left: auto;
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.headshot {
+    height: 120px;
+    width: auto;
+    border: 1px solid #c6c6c6;
 }
