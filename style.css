@@ -7,7 +7,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.header h1:hover {
+.header h1 {
     text-shadow: 2px 2px #c6c6c6;
 }
 
@@ -20,7 +20,7 @@ html {
 }
 
 .navColor {
-    background-image: linear-gradient(to right, #ff0077, #ffc6e1);
+    background-image: linear-gradient(to right, #0027d3, #b3cae4);
 }
 
 .navbar {
@@ -52,7 +52,8 @@ html {
 } */
 
 .page-header-image {
-    background-image: url(./imgs/undraw_web_developer_p3e5.svg);
+    /* background-image: url(./imgs/undraw_web_developer_p3e5.svg); */
+    background-image: url(./imgs/IMG_0226.jpg);
     background-size: contain !important;
     background-repeat: no-repeat;
     background-color: transparent !important;
